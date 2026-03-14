@@ -1,0 +1,19 @@
+{
+  "window_size": 5,
+  "hidden_dims": [
+    512,
+    256
+  ],
+  "joint_dim": 72,
+  "noise_std": 0.02,
+  "temporal_jitter_std": 0.01,
+  "outlier_prob": 0.05,
+  "outlier_std": 0.05,
+  "foot_weight": 0.1,
+  "epochs": 100,
+  "best_epoch": 98,
+  "best_val_mpjpe_mm": 12.433154475673444,
+  "n_params": 334664,
+  "train_windows": 2057069,
+  "val_windows": 228567
+}

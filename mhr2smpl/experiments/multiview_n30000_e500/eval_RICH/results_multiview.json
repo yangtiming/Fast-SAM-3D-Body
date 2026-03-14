@@ -1,0 +1,60 @@
+{
+  "multi_view": {
+    "MPJPE (mm)": 42.156253814697266,
+    "MPJPE_median": 37.99614334106445,
+    "MPJPE_std": 16.787277221679688,
+    "PA-MPJPE (mm)": 32.85254593605351,
+    "PA-MPJPE_median": 29.010062292381278,
+    "PA-MPJPE_std": 15.345748616943466,
+    "PVE (mm)": 51.41178512573242,
+    "PVE_std": 22.063007354736328,
+    "num_samples": 2400
+  },
+  "single_view": {
+    "MPJPE (mm)": 42.156253814697266,
+    "MPJPE_median": 37.996131896972656,
+    "MPJPE_std": 16.787277221679688,
+    "PA-MPJPE (mm)": 32.85254561640822,
+    "PA-MPJPE_median": 29.010051841493457,
+    "PA-MPJPE_std": 15.345748745369303,
+    "PVE (mm)": 51.411781311035156,
+    "PVE_std": 22.06300926208496,
+    "num_samples": 2400
+  },
+  "improvement_mm": 0.0,
+  "confidence_mean": [
+    1.0,
+    0.0
+  ],
+  "confidence_std": [
+    0.0,
+    0.0
+  ],
+  "timing_ms_per_frame": 13.590738972028097,
+  "num_eval": 2400,
+  "model_config": {
+    "model_type": "MinimalMultiViewNet_fuse_feat",
+    "trainable_params": 2456400,
+    "total_params": 2456400,
+    "num_views_select": 2,
+    "view_dropout_prob": 0.15,
+    "single_view_prob": 0.15,
+    "noise_std": 0.5,
+    "epochs": 500,
+    "lr": 0.001,
+    "vert_loss_weight": 1.0,
+    "fk_loss_weight": 1.0,
+    "param_loss_weight": 0.1,
+    "conf_entropy_weight": 0.01,
+    "from_scratch": true,
+    "freeze_encoder": false,
+    "sv_loss_weight": 0.5,
+    "go_loss_weight": 1.0,
+    "pretrained_path": null,
+    "train_samples": 78414,
+    "val_samples": 19603,
+    "V_sub": 1500,
+    "V_max": 4,
+    "best_val_fk_mpjpe_mm": 39.0204884407963
+  }
+}
