@@ -2,7 +2,21 @@
 
 ### Accelerating SAM 3D Body for Real-Time Full-Body Human Mesh Recovery
 
-[Paper](https://arxiv.org/abs/xxxx.xxxxx)
+[Timing Yang](https://yangtiming.github.io/)<sup>1</sup>, Sicheng He<sup>1</sup>, Hongyi Jing<sup>1</sup>, Jiawei Yang<sup>1</sup>, [Zhijian Liu](https://zhijianliu.com/)<sup>2,3</sup>, Chuhang Zou<sup>4</sup><sup>†</sup>, [Yue Wang](https://yuewang.xyz/)<sup>1,3</sup><sup>†</sup>
+
+<sup>1</sup>USC Physical Superintelligence (PSI) Lab &nbsp; <sup>2</sup>University of California, San Diego &nbsp; <sup>3</sup>NVIDIA &nbsp; <sup>4</sup>Meta Reality Labs
+
+<sup>†</sup> Joint corresponding authors
+
+<p align="center">
+  <a href="https://arxiv.org/abs/xxxx.xxxxx">
+    <img src="https://img.shields.io/badge/arXiv-Paper-b31b1b?style=for-the-badge&logo=arxiv&logoColor=white" alt="Paper">
+  </a>
+  &nbsp;
+  <a href="https://yangtiming.github.io/Fast-SAM-3D-Body-Page/">
+    <img src="https://img.shields.io/badge/🌐_Project-Page-4285F4?style=for-the-badge" alt="Project Page">
+  </a>
+</p>
 
 <p align="center">
   <img src="assets/teaser.png" width="900">
@@ -96,7 +110,7 @@ We demonstrate a real-time, vision-only teleoperation system for the Unitree G1 
 ```bibtex
 @inproceedings{fastsam3dbody2026,
   title={Fast SAM 3D Body: Accelerating SAM 3D Body for Real-Time Full-Body Human Mesh Recovery},
-  author={},
+  author={Yang, Timing and He, Sicheng and Jing, Hongyi and Yang, Jiawei and Liu, Zhijian and Zou, Chuhang and Wang, Yue},
   year={2026}
 }
 ```
