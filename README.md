@@ -2,7 +2,7 @@
 
 ### Accelerating SAM 3D Body for Real-Time Full-Body Human Mesh Recovery
 
-[Timing Yang](https://yangtiming.github.io/)<sup>1</sup>, Sicheng He<sup>1</sup>, Hongyi Jing<sup>1</sup>, Jiawei Yang<sup>1</sup>, [Zhijian Liu](https://zhijianliu.com/)<sup>2,3</sup>, Chuhang Zou<sup>4</sup><sup>†</sup>, [Yue Wang](https://yuewang.xyz/)<sup>1,3</sup><sup>†</sup>
+[Timing Yang](http://yangtiming.github.io)<sup>1</sup>, [Sicheng He](https://hesicheng.net)<sup>1</sup>, [Hongyi Jing](https://hongyijing.me)<sup>1</sup>, [Jiawei Yang](https://jiawei-yang.github.io)<sup>1</sup>, [Zhijian Liu](https://zhijianliu.com)<sup>2,3</sup>, [Chuhang Zou](https://zouchuhang.github.io)<sup>4</sup><sup>†</sup>, [Yue Wang](https://yuewang.xyz)<sup>1,3</sup><sup>†</sup>
 
 <sup>1</sup>USC Physical Superintelligence (PSI) Lab &nbsp; <sup>2</sup>University of California, San Diego &nbsp; <sup>3</sup>NVIDIA &nbsp; <sup>4</sup>Meta Reality Labs
 
