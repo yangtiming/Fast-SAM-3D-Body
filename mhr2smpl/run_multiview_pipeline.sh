@@ -128,7 +128,7 @@ export INTERM_TIMING=0              # Intermediate layer timing
 # Environment
 # ============================================================
 source /home/jiawei/miniforge3/etc/profile.d/conda.sh
-conda activate sam_3d_body
+conda activate fast_sam_3d_body
 
 # ============================================================
 # Paths (auto-derived, no need to change)
@@ -144,7 +144,7 @@ PIXI="/home/jiawei/.pixi/bin/pixi"
 MANIFEST="/home/jiawei/timingyang/sam-3d-body/eval_ECCV/MHR/pyproject.toml"
 PIXI_RUN="${PIXI} run --manifest-path ${MANIFEST} python"
 
-CONDA_ENV="/home/jiawei/miniforge3/envs/sam_3d_body"
+CONDA_ENV="/home/jiawei/miniforge3/envs/fast_sam_3d_body"
 CONDA_PYTHON="${CONDA_ENV}/bin/python"
 
 SMPL_MODEL="${DATA_DIR}/SMPL_NEUTRAL.pkl"

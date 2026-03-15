@@ -42,7 +42,7 @@ Please refer to [SAM 3D Body](https://github.com/facebookresearch/sam-3d-body) f
 
 ```bash
 conda env create -f environment.yaml
-conda activate sam_3d_body
+conda activate fast_sam_3d_body
 ```
 
 ### Checkpoints

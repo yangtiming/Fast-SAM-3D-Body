@@ -5,7 +5,7 @@ Stage 1 Single Person for 3DPW: GT bbox -> Crop Image -> Inference -> Save Outpu
 This mode crops the image to GT bounding box (computed from poses2d).
 
 Run with conda environment:
-    /home/jiawei/miniforge3/envs/sam_3d_body/bin/python eval_ECCV/stage1_single_3dpw.py \
+    /home/jiawei/miniforge3/envs/fast_sam_3d_body/bin/python eval_ECCV/stage1_single_3dpw.py \
         --data_dir eval_ECCV/dataset/3DPW \
         --output_dir eval_ECCV/outputs_3dpw \
         --split test \

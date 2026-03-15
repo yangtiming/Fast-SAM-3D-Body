@@ -90,12 +90,12 @@ mhr2smpl/
 
 ### 1. Conda Environment
 
-The project uses the `sam_3d_body` conda environment, which provides PyTorch with CUDA support and all required dependencies.
+The project uses the `fast_sam_3d_body` conda environment, which provides PyTorch with CUDA support and all required dependencies.
 
 ```bash
 # Create and activate conda environment
-conda create -n sam_3d_body python=3.11
-conda activate sam_3d_body
+conda create -n fast_sam_3d_body python=3.11
+conda activate fast_sam_3d_body
 
 # Install PyTorch (adjust CUDA version as needed)
 pip install torch torchvision --index-url https://download.pytorch.org/whl/cu121
@@ -116,7 +116,7 @@ curl -fsSL https://pixi.sh/install.sh | bash
 # Step 1a is invoked via: pixi run --manifest-path <MHR_REPO>/pyproject.toml python step1a_collect_fitted.py
 ```
 
-> **Note**: Steps 0, 1b, 2, 3, Smooth, and Demo all use the conda `sam_3d_body` environment. Only Step 1a requires pixi.
+> **Note**: Steps 0, 1b, 2, 3, Smooth, and Demo all use the conda `fast_sam_3d_body` environment. Only Step 1a requires pixi.
 
 ## Required Data & Weights
 
@@ -188,7 +188,7 @@ The pipeline script has step control flags at the top — set `RUN_STEP0=1`, `RU
 Run SAM-3D-Body backbone on each dataset to produce MHR mesh predictions (`sample_*.npz`).
 
 ```bash
-conda activate sam_3d_body
+conda activate fast_sam_3d_body
 cd /path/to/Fast_sam-3d-body
 
 # EMDB
@@ -231,7 +231,7 @@ pixi run python step1b_collect_RICH.py \
     --output_path mhr2smpl/data/mv_pairs_RICH.npz
 
 # AIST++ (uses conda, runs real Stage 1 inference on video frames)
-conda activate sam_3d_body
+conda activate fast_sam_3d_body
 python step1b_collect_AIST.py \
     --video_dir <AIST_VIDEO_DIR> \
     --aist_dir <AIST_DIR> \
@@ -253,7 +253,7 @@ pixi run python step1c_merge.py \
 #### Step 2: Train Multi-View Network
 
 ```bash
-conda activate sam_3d_body
+conda activate fast_sam_3d_body
 python mhr2smpl/multi_view/step2_train.py \
     --data_path mhr2smpl/data/pairs_all_merged.npz \
     --smpl_model mhr2smpl/data/SMPL_NEUTRAL.pkl \

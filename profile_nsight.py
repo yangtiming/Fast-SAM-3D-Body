@@ -8,7 +8,7 @@ export PATH=/usr/local/cuda/bin:$PATH
 
 
 # Activate your environment
-conda activate sam_3d_body
+conda activate fast_sam_3d_body
 
 # Make sure ncu is in PATH
 export PATH=/usr/local/cuda/bin:$PATH

@@ -6,7 +6,7 @@ EMDB dataset contains monocular video sequences with SMPL GT annotations.
 Each sequence has a pickle file with SMPL params, camera intrinsics, bboxes, and 2D keypoints.
 
 Run with conda environment:
-    /home/jiawei/miniforge3/envs/sam_3d_body/bin/python eval_ECCV/stage1_single_EMDB.py \
+    /home/jiawei/miniforge3/envs/fast_sam_3d_body/bin/python eval_ECCV/stage1_single_EMDB.py \
         --data_dir eval_ECCV/dataset/EMDB/data \
         --output_dir eval_ECCV/outputs_EMDB \
         --subset all \

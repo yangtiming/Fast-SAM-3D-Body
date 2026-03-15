@@ -7,7 +7,7 @@ RICH dataset structure:
 - GT SMPL-X params: test/{scene}/{frame}/{cam_id}.pkl
 
 Run with conda environment:
-    /home/jiawei/miniforge3/envs/sam_3d_body/bin/python eval_ECCV/stage1_single_RICH.py \
+    /home/jiawei/miniforge3/envs/fast_sam_3d_body/bin/python eval_ECCV/stage1_single_RICH.py \
         --data_dir eval_ECCV/dataset/RICH \
         --output_dir eval_ECCV/outputs_RICH \
         --max_samples 100

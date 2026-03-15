@@ -1,4 +1,4 @@
-name: sam_3d_body
+name: fast_sam_3d_body
 channels:
   - conda-forge
 dependencies:

@@ -11,7 +11,7 @@ Unlike step1_collect_AIST.py (which used GT+noise), this script:
 
 Usage:
   cd /home/jiawei/timingyang/CLEAN/Fast_sam-3d-body_mhr2smpl
-  /home/jiawei/miniforge3/envs/sam_3d_body/bin/python3 \\
+  /home/jiawei/miniforge3/envs/fast_sam_3d_body/bin/python3 \\
     mhr2smpl-multiview/step1_collect_AIST_stage1.py \\
     --video_dir /home/jiawei/timingyang/sam-3d-body/eval_ECCV/dataset/AIST/videos \\
     --aist_dir   /home/jiawei/timingyang/sam-3d-body/eval_ECCV/dataset/AIST \\
