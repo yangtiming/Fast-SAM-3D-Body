@@ -85,6 +85,8 @@ All generated engines are stored under `./checkpoints/`.
 
 ## Real-World Deployment
 
+For instructions on running the publisher, see [docs/realworld_deployment.md](docs/realworld_deployment.md).
+
 We demonstrate a real-time, vision-only teleoperation system for the Unitree G1 humanoid robot using a single RGB camera, operating at ~65 ms end-to-end latency on an NVIDIA RTX 5090.
 
 <p align="center">
