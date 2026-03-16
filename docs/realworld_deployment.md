@@ -1,11 +1,6 @@
 # Real-World Deployment
 
-<details>
-<summary><strong>Note</strong></summary>
-
-This codebase is released as a research reference implementation. Pose estimation may occasionally fail and produce jerky motions. Always validate in simulation and confirm with the debug scripts before deploying to real hardware.
-
-</details>
+**Note:** Pose estimation may occasionally fail and produce jerky motions. Always validate in simulation and confirm with the debug scripts before deploying to real hardware.
 
 ## Prerequisites
 
@@ -65,9 +60,6 @@ bash deploy.sh real --input-type zmq --obs-config path/to/obs_config.yaml
 <summary><strong>Observation config</strong></summary>
 
 ```yaml
-# G1 Deploy - Observation Configuration
-# Total dimension: 436 (64+12+116+116+116+12)
-
 observations:
 
   - name: "token_state"
@@ -143,7 +135,6 @@ encoder:
         - encoder_mode_4
         - smpl_joints_10frame_step1
         - smpl_anchor_orientation_10frame_step1
-        # - motion_joint_positions_wrists_10frame_step1
 ```
 
 </details>
