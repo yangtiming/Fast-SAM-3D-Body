@@ -8,14 +8,14 @@ conda create -n fast_sam_3d_body python=3.11 -y
 eval "$(conda shell.bash hook)"
 conda activate fast_sam_3d_body
 
-# Step 2: Install CUDA toolkit 12.1 (needed for detectron2 compilation)
+# Step 2: Install CUDA toolkit 12.4 (needed for detectron2 compilation)
 echo "=== Installing CUDA toolkit ==="
-conda install -c nvidia/label/cuda-12.1.0 cuda-toolkit -y
+conda install -c nvidia/label/cuda-12.4.0 cuda-toolkit -y
 
-# Step 3: Install PyTorch (CUDA 12.1)
+# Step 3: Install PyTorch (CUDA 12.4)
 echo "=== Installing PyTorch ==="
-pip install torch==2.5.1+cu121 torchaudio==2.5.1+cu121 torchvision==0.20.1+cu121 \
-    --extra-index-url https://download.pytorch.org/whl/cu121
+pip install torch==2.5.1+cu124 torchvision==0.20.1+cu124 \
+    --extra-index-url https://download.pytorch.org/whl/cu124
 
 # Step 4: Install Python dependencies
 echo "=== Installing Python dependencies ==="
@@ -44,8 +44,7 @@ echo "=== Installing TensorRT & ONNX ==="
 pip install tensorrt-cu12 tensorrt-cu12-bindings tensorrt-cu12-libs onnx onnxruntime-gpu nvtx
 
 
-pip install smplx numpy scipy opencv-python tqdm
-
+pip install smplx numpy scipy opencv-python tqdm pyzmq pyrealsense2 chumpy
 
 # Step 9: Install SAM3 (optional, uncomment if needed)
 # echo "=== Installing SAM3 ==="
