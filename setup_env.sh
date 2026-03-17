@@ -44,7 +44,8 @@ echo "=== Installing TensorRT & ONNX ==="
 pip install tensorrt-cu12 tensorrt-cu12-bindings tensorrt-cu12-libs onnx onnxruntime-gpu nvtx
 
 
-pip install smplx numpy scipy opencv-python tqdm pyzmq pyrealsense2 chumpy
+pip install smplx numpy scipy opencv-python tqdm pyzmq pyrealsense2
+pip install chumpy --no-build-isolation
 
 # Step 9: Install SAM3 (optional, uncomment if needed)
 # echo "=== Installing SAM3 ==="
