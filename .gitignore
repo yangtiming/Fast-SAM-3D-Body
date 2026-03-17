@@ -10,5 +10,8 @@ checkpoints/**/*.pt
 checkpoints/**/*.pth
 checkpoints/**/*.engine
 checkpoints/**/*.onnx
+checkpoints/**/*.trt
+checkpoints/**/*.plan
+checkpoints/**/*_trt/
 
 /output
