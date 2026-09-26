@@ -74,6 +74,7 @@ class PromptableDecoder(nn.Module):
                     ffn_type=ffn_type,
                     enable_twoway=enable_twoway,
                     repeat_pe=repeat_pe,
+                    skip_first_pe=(i == 0),
                 )
             )
         self.norm_final = build_norm_layer(norm_cfg, dims)
